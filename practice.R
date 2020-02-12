@@ -1,6 +1,7 @@
 ## Practice the following problem 
 
 # What is the sum of the first 1000 positive integers?
+sum(1:1000)
 
 #1. Use the function c to create a vector with the average high temperatures in January for
 #Beijing, Lagos, Paris, Rio de Janeiro, San Juan, and Toronto, which are 35, 88, 42, 84, 81, 
