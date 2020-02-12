@@ -12,10 +12,10 @@ temp <- c(35, 88, 42, 84, 81,30)
 city <- c("Beijing", "Lagos", "Paris", "Rio de Janeiro", "San Juan", "Toronto")
 
 # Use the names function and the objects defined in the previous exercises to associate the temperature data with its corresponding city.
-df <- data.frame(city, temp)
+city_temp <- data.frame(city, temp)
 
 # Use the [ and : operators to access the temperature of the first three cities on the list.
-df[1:3,]
+city_temp$temp[1:3]
            
 # Use the [ operator to access the temperature of Paris and San Juan.
 
